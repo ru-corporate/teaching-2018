@@ -35,6 +35,7 @@ Additional datasets (market, official stats, tax, other):
     - news clips and good recearch article references
 
 Corporate map:
+
     - GDP / industries / regions boundary values (official stats)
     - stock and bond market stats
     - other layers
@@ -83,6 +84,7 @@ Chapters:
     - access alternatives: BIR, SPARK, СКРИН
 
 Checkpoints:
+
     - dataset downloadable
     - dataset clean
     - subsets
@@ -95,17 +97,20 @@ Checkpoints:
 
 
 Collaboration tools:
+
     - slack (?) 
     - github, s3 (no dropbox)
     - trello board (?)
 
 To add:
+
     - course descriptions
     - video Link
     - previous teaching
     - self-study guides
 
 Not covered:
+
     - РСБУ vs IFRS
     - networks, cross ownership, business groups 
     - GIS regional maps
@@ -122,6 +127,11 @@ Links bulk:
 - http://www.scielo.org.mx/pdf/cys/v21n4/1405-5546-cys-21-04-00809.pdf
 - https://www.bcg.com/publications/2018/global-corporate-banking-2018-unlocking-success-through-digital.aspx
 - https://fulyankin.github.io/cmf_part2/
-
-
-
+- https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-040-project-management-spring-2009/lecture-notes/MIT1_040s09_lec08.pdf
+- https://pdfs.semanticscholar.org/e87c/e5bf38a7a1390d3a0713a4bb035585b804bb.pdf
+- http://www.corpfin.ugent.be/teaching/topicsincorporatefinance/
+- https://faculty.chicagobooth.edu/raghuram.rajan/research/papers/The%20Corporation%20in%20Finance%20ver8.pdf
+- http://www.nber.org/papersbyprog/CF.html
+- https://www.forbes.com/sites/forbestechcouncil/2018/05/01/the-robots-are-coming-to-corporate-finance/#44c137c056b6
+- https://www.ey.com/Publication/vwLUAssets/EY_-_Robotic_process_automation_in_the_Finance_function_of_the_future/$FILE/EY-robotic-process-automation-in-the-finance-function-of-the-future-2016.pdf
+- https://github.com/search?q=corporate+finance
