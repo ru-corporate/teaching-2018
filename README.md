@@ -9,6 +9,19 @@ TODO
 - co-instructors 
 - course reviewers
 - dividends repo
+- analysis of corporate structure
+- my peer papers/presentation: (1) R&D
+
+
+Takeaways:
+----------
+
+- dataset API example
+- corporate map
+- question list
+- draft publication
+
+
 
 Theory of the firm:
 ===================
@@ -256,6 +269,8 @@ pandas: df.describe()
 
 Examples:
 - https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python
+- https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
+
 
 
 Links:
