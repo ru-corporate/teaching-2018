@@ -2,9 +2,89 @@
 
 Instructor resources for "Machine-readable corporate financial statements" course
 
+TODO
+====
+
+- send out an VK link + video (FB, ostov)
+- co-instructors 
+- course reviewers
+- dividends repo
+
+Theory of the firm:
+===================
+
+- [Corporate Finance, Incomplete Contracts, and Corporate Control](https://www0.gsb.columbia.edu/mygsb/faculty/research/pubfiles/6023/CFICCCrevision3.pdf)
+ 
 
 Instructor outline - 2018
 =========================
+
+Team roles
+----------
+
+    ------------------------------------------------------------------
+
+    Data access      ***********
+    Clean dataset          ***********
+    Analysis                    ********************
+    Presentation                             ****************
+    Dessemination                                      ***************  (@)
+
+    ------------------------------------------------------------------
+
+    Profit: replicable result 
+
+
+- ETL (data engineer) -> API endpoint
+- statistics analyst -> data coverage map 
+- financial analyst -> empriric financial ratios
+- visualisation expert -> all charts 
+- *scientific publisher* -> format for publication output  
+- writer/editor 
+- outreach/PR -> citations
+
+Excercises
+----------
+
+- review of agile methodologies 
+- ds cookiecutter
+- top 3 questions for perfect dataset 
+- review scientific publishing methodologies
+
+Learning objectives
+-------------------
+
+- ORG: course organisation 
+   - thesis + data-model-view
+   - data + excercise + finding + decision case 
+   - slim end-to-end data pipeline build first
+   - 'agile' methodologies
+
+- INTRO-FIN:
+   - corporate reporting and disclosure procedures
+   - financial statements use cases 
+   - available aggregate data sources and their limitations
+   - refresher on accounting
+   - theory of firm, continious reporting, continious assurance   
+
+- INTRO-DS:
+   - research as a data pipeline (using ds cookiecutter)
+   - presentation and delievery of research (open topic)
+
+- ETL: load, inspect and clean large tabular dataset  
+   - load data from immutable source 
+   - perform data consistency checks (control datapoints, identities, outliers)
+   - transform data 
+   - create and document access endpoints (API)
+
+- STAT: estimate dataset coverage ratios with respect to other statistics sources
+   - define and compute comparison metrics (value added, output, debt, fixed assets) 
+   - access comparison datasets
+   - represent several dimensions of coverage on a chart (map)
+
+
+TODO:  add part 3
+
 
 Stages:
 
