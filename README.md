@@ -28,19 +28,21 @@ Team roles
     Clean dataset          ***********
     Analysis                    ********************
     Presentation                             ****************
-    Dessemination                                      ***************  (@)
+    Dessemination                                      ***************  
+    Research / business value                                       (@)
 
     ------------------------------------------------------------------
 
-    Profit: replicable result 
+    Profit: replicable result, control of data pipeline  
 
 
 - ETL (data engineer) -> API endpoint
-- statistics analyst -> data coverage map 
+- statistics analyst -> data map 
 - financial analyst -> empriric financial ratios
+- researcher -> list of use cases and research questions 
 - visualisation expert -> all charts 
 - *scientific publisher* -> format for publication output  
-- writer/editor 
+- writer/editor/proof reader
 - outreach/PR -> citations
 
 Excercises
@@ -83,8 +85,7 @@ Learning objectives
    - represent several dimensions of coverage on a chart (map)
 
 
-TODO:  add part 3
-
+\*\*\* TODO:  add part 2, 3 \*\*\*
 
 Stages:
 
@@ -165,16 +166,18 @@ Chapters:
 
 Checkpoints:
 
-    - dataset downloadable
-    - dataset clean
-    - subsets
-    - hypothesis
-    - metrics
-    - visualisation
-    - prose
-    - output 
-    - new questions (use case, acticle replication, controversies, news, other ideas)
-
+    - [ ] dataset downloadable
+    - [ ] dataset clean (with tests)
+    - [ ] can compute firm metrics
+    - [ ] can make subsets of companies 
+    - [ ] list hypothesis and findings formulated
+    - [ ] options for visualisation defined
+    - [ ] prose written, edited, accepted
+    - [ ] output format defined and accepted
+    - [ ] report cited citations 
+    - [ ] accepting new questions from use cases, acticle replication, controversies, news, etc
+    - [ ] author credentials written
+    - [ ] student feedback collected
 
 Collaboration tools:
 
@@ -193,7 +196,12 @@ Not covered:
 
     - РСБУ vs IFRS
     - networks, cross ownership, business groups 
+
+
+Sister projects:
+    - mini-kep    
     - GIS regional maps
+    - dividend reporting 
 
 Links bulk:
 
@@ -215,3 +223,51 @@ Links bulk:
 - https://www.forbes.com/sites/forbestechcouncil/2018/05/01/the-robots-are-coming-to-corporate-finance/#44c137c056b6
 - https://www.ey.com/Publication/vwLUAssets/EY_-_Robotic_process_automation_in_the_Finance_function_of_the_future/$FILE/EY-robotic-process-automation-in-the-finance-function-of-the-future-2016.pdf
 - https://github.com/search?q=corporate+finance
+
+---
+
+> Use URIs to identify data. Uniform Resource identifiers (URIs) are a type of web link. They make it easier for your users to point at and draw upon your data.
+[*](https://data.wa.gov.au/junk/fact-sheets-and-toolkit/creating-machine-readable-data)
+
+---
+
+Exploratory Data Analysis (EDA):
+
+- set of approaches / philosophy / some phsycology 
+- developed at start computer age, puts reasoning before computing, plotting by hand  
+- traditional components: residual analysis, data re-expression, resistant procedures, and data visualization.
+- newer components: clustering, variable screening, and pattern recognition
+
+> Exploratory data analysis’ is an attitude, a 
+> state of flexibility, a willingness to look for 
+> those things that we believe are not there, as 
+> well as those we believe to be there.
+
+
+Reading:
+- data is uncertain (measurement error, experiment bias, falsification, data corruption)
+- our reading of data is prejudiced 
+- it takes effort to clean data + extract knowledge from data
+
+```
+R: summary(data)
+pandas: df.describe()
+```
+
+Examples:
+- https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python
+
+
+Links:
+
+- [EDA Berkley](https://www.stat.berkeley.edu/~brill/Papers/EDASage.pdf)
+- [](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1332871/?page=7)
+- [EDA in Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)
+- [Exploratory data analysis and Data visualization by Chong Ho Yu](http://www.creative-wisdom.com/teaching/WBI/EDA.shtml)
+- [Exploratory Data Analysis by Chong Ho Yu](http://www.oxfordbibliographies.com/view/document/obo-9780199828340/obo-9780199828340-0200.xml?rskey=JOlkN9&result=50)
+
+---
+
+DataViz:
+
+- https://www.kaggle.com/learn/data-visualisation
