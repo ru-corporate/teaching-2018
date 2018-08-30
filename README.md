@@ -21,6 +21,14 @@ Takeaways:
 - question list
 - draft publication
 
+Results
+-------
+
+1. business service (credit scoring automation)
+2. policy recommendation (taxation)
+3. disclosure recommendation 
+4. new financing product
+5. new research insight (problem, context, solution)
 
 
 Theory of the firm:
