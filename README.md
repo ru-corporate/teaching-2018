@@ -11,6 +11,7 @@ TODO
 - dividends repo
 - analysis of corporate structure
 - my peer papers/presentation: (1) R&D
+- https://leader-id.ru/event/10636/#
 
 
 Takeaways:
