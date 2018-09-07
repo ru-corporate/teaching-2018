@@ -1,3 +1,43 @@
+# Преподавание-2018
+
+1. Подготовка данных
+
+  - есть API для доступа к данным 
+  - найдены и устранены ошибки 
+  - оценена полнота данных 
+  
+2. Проведена сегментация компаний. 
+   Доступны выборки:
+   
+   - крупные, малые и средние предприятия
+   - отрасли
+   - регионы  
+   - перекрестные выборки
+   
+3. Финансовая аналитика
+
+
+4. Экономическая аналитика
+
+
+5. Способы представления результатов
+
+
+6. Дополниельные темы
+
+
+
+~~~~~~~~~~~~~~~~~~~~~
+2. Исследования и аналитика   
+  - построены финансовые показатели 
+  - найдены подгруппы компаний:
+    - динамично растущие (по продажам и активам)
+    - инвестирующие в основной капитал
+    - банкроты
+~~~~~~~~~~~~~~~~~~~~~    
+  
+   
+
 # teaching-2018
 
 Instructor resources for "Machine-readable corporate financial statements" course
@@ -5,21 +45,51 @@ Instructor resources for "Machine-readable corporate financial statements" cours
 TODO
 ====
 
-- send out an VK link + video (FB, ostov)
-- co-instructors 
-- course reviewers
-- dividends repo
+- upload video: https://github.com/tokland/youtube-upload from s3://video.cmf
+- co-instructors: 
+- course reviewers: 
+- internships: 
+- [dividends repo](https://github.com/WLM1ke/PortfolioOptimizer)
 - analysis of corporate structure
+
+
+
+Ссылки
+------
+
+#### Доп.материалы
+
 - my peer papers/presentation: (1) R&D
-- https://leader-id.ru/event/10636/#
+
+#### Клуб экспертов по цифровой экономике ДВФУ 
+
+>  https://leader-id.ru/event/10636/#
+> Дата: 23 августа - 31 декабря 2018
+> Адрес: Россия, Приморский край, г. Владивосток, пос. Аякс, 10, кампус ДВФУ, корпус А, 8 уровень, Точка кипения Владивосток
+> Контактное лицо:
+> Шушарина Татьяна
+> shusharina.te@dvfu.ru
+> +7 (924) 233-99-98
+
+#### Look at a business  case lecture 
+Найти ссылку
+
+Ideas
+-----
+
+- Google dataset search
+- doi / citiation 
+- протянуть тонкий pipeline 
+- bir / spark
 
 
 Takeaways:
 ----------
 
-- dataset API example
+- dataset API 
+- scope metrics
 - corporate map
-- question list
+- research topics and questions
 - draft publication
 
 Results
@@ -27,7 +97,7 @@ Results
 
 1. business service (credit scoring automation)
 2. policy recommendation (taxation)
-3. disclosure recommendation 
+3. disclosure / statistic survey recommendation 
 4. new financing product
 5. new research insight (problem, context, solution)
 
@@ -40,6 +110,21 @@ Theory of the firm:
 
 Instructor outline - 2018
 =========================
+
+Components and delieverables
+----------------------------
+
+Часть 1. Подготовка данных 
+
+```
+ETL                                       удобство доступа, нет потерь данных
+SI                                        нет ошибок         
+EDA     notebook                          всестороннии
+RC      актуальность+научная новизна      понятные, новые
+SO      задачи и решения                  нужные
+VIZ     charts                            красивые, понятные
+PRES    pdf/slides                        интересная 
+```
 
 Team roles
 ----------
@@ -285,7 +370,7 @@ Examples:
 Links:
 
 - [EDA Berkley](https://www.stat.berkeley.edu/~brill/Papers/EDASage.pdf)
-- [](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1332871/?page=7)
+- [EDA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1332871/?page=7)
 - [EDA in Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)
 - [Exploratory data analysis and Data visualization by Chong Ho Yu](http://www.creative-wisdom.com/teaching/WBI/EDA.shtml)
 - [Exploratory Data Analysis by Chong Ho Yu](http://www.oxfordbibliographies.com/view/document/obo-9780199828340/obo-9780199828340-0200.xml?rskey=JOlkN9&result=50)
